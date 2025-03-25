@@ -1,0 +1,123 @@
+##   🌐 Nginx（エンジンエックス）とは？  
+  Nginx（読み方: エンジンエックス）   は、  軽量・高速なWebサーバー & リバースプロキシサーバー   です。  
+  Webサイトの配信や、負荷分散、APIゲートウェイとして利用   さ	れることが多いです。
+
+---
+
+##   📌 1. Nginxの主な用途  
+Nginxは、以下の3つの用途でよく使われます。
+
+	   用途   	   説明   	
+	----------	----------	
+	   ① Webサーバー   	 静的ファイル（HTML、CSS、JS、画像）を高速配信 	
+	   ② リバースプロキシ   	 クライアントのリクエストをバックエンド（Apache, Node.js, Go）に転送 	
+	   ③ ロードバランサー   	 負荷分散して複数のサーバーにリクエストを振り分け 	
+
+💡   Nginxは「Webサーバー」としても使えるし、「APIのゲートウェイ」や「ロードバランサー」としても強力！  
+
+---
+
+##   📌 2. NginxとApacheの違い  
+	   比較項目   	   Nginx   	   Apache   	
+	------------	---------	---------	
+	   方式   	   イベント駆動型   	   プロセス駆動型   	
+	   処理速度   	   高速（大量のリクエストに強い）   	   リクエストが多いと負荷が高まる   	
+	   静的ファイル配信   	   高速（非同期処理）   	   比較的遅い   	
+	   設定の柔軟性   	   設定がシンプル   	   モジュールが豊富でカスタマイズ性が高い   	
+
+💡   「大量アクセスのあるWebサイト」にはNginxが向いている！  
+
+---
+
+##   📌 3. Nginxの基本構成  
+Nginxの設定ファイル（`nginx.conf`）の基本的な例を紹介します。
+
+```nginx
+server {
+    listen 80;
+    server_name example.com;
+    
+    location / {
+        root /var/www/html;
+        index index.html;
+    }
+}
+```
+
+この設定では、`example.com` のリクエストを   `/var/www/html/index.html` に配信   するようになっています。
+
+---
+
+##   📌 4. Nginxを使うメリット  
+✅   大量のアクセスに強い  （非同期処理で高速対応）  
+✅   軽量でリソース消費が少ない  （少ないメモリで動作）  
+✅   ロードバランサーやAPIゲートウェイとして利用可能    
+✅   静的コンテンツの配信が速い  （キャッシュ機能あり）  
+
+---
+
+##   📌 5. 具体的な活用例  
+  🌍 ① Webサーバーとして使う（静的サイトのホスティング）  
+```nginx
+server {
+    listen 80;
+    server_name mywebsite.com;
+    
+    location / {
+        root /var/www/html;
+        index index.html;
+    }
+}
+```
+-   用途:   `mywebsite.com` でWebサイトをホスティング  
+-   動作:   `index.html` を配信
+
+---
+
+  🔄 ② リバースプロキシとして使う  
+```nginx
+server {
+    listen 80;
+    server_name api.example.com;
+
+    location / {
+        proxy_pass http://backend_server:8080;
+    }
+}
+```
+-   用途:   フロントエンドのリクエストをバックエンド（Node.js, Go, PHP）に転送  
+-   動作:   `http://backend_server:8080` にリクエストをプロキシする
+
+---
+
+  ⚖️ ③ ロードバランサーとして使う  
+```nginx
+upstream backend {
+    server app1:8080;
+    server app2:8080;
+}
+
+server {
+    listen 80;
+    server_name myapp.com;
+
+    location / {
+        proxy_pass http://backend;
+    }
+}
+```
+-   用途:   2台のバックエンド（`app1:8080`, `app2:8080`）に負荷分散  
+-   動作:   リクエストを均等に振り分ける
+
+---
+
+##   📌 6. まとめ  
+	   項目   	   内容   	
+	----------	---------	
+	   Nginxとは？   	 軽量・高速なWebサーバー & リバースプロキシ 	
+	   用途   	 Webサーバー / リバースプロキシ / ロードバランサー 	
+	   Apacheとの違い   	 Nginxは   イベント駆動型   で高速、大量アクセスに強い 	
+	   メリット   	   スケーラブル・軽量・高速・リバースプロキシ対応   	
+	   活用例   	 静的サイト、APIゲートウェイ、負荷分散 	
+
+💡   Webサービスのパフォーマンスを向上させるならNginxが最適！   🚀
