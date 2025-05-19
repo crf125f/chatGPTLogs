@@ -1,5 +1,9 @@
-#コミットコマンド
-
+# コミットコマンド
  git add .
  git commit -m "コミットメッセージ"
  git push origin main
+
+# 最新取得
+git fetch
+git pull
+git pull origin maingit 
