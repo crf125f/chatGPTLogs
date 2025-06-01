@@ -1,0 +1,125 @@
+<mxfile host="65bd71144e">
+    <diagram name="ページ1" id="8Wa2IOQ_TwLDjVJg_XTn">
+        <mxGraphModel dx="995" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="ZbMIgbuxjVwZyQ4SQIWv-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="530" y="40" width="250" height="510" as="geometry"/>
+                </mxCell>
+                <mxCell id="4EnUbRHuGSjp5WLml_GJ-33" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="230" y="40" width="270" height="510" as="geometry"/>
+                </mxCell>
+                <mxCell id="4EnUbRHuGSjp5WLml_GJ-32" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry y="40" width="177.5" height="510" as="geometry"/>
+                </mxCell>
+                <mxCell id="4EnUbRHuGSjp5WLml_GJ-31" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="100" width="210" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="4EnUbRHuGSjp5WLml_GJ-1" value="SCP" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=light-dark(#000000,#99CCFF);" parent="1" vertex="1">
+                    <mxGeometry x="30" y="40" width="130" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="4EnUbRHuGSjp5WLml_GJ-2" value="・販売・出荷&lt;div&gt;・在庫&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="114" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4EnUbRHuGSjp5WLml_GJ-4" value="仕入れ・生産" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="160" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4EnUbRHuGSjp5WLml_GJ-13" value="月次、年次の" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="275" y="110" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4EnUbRHuGSjp5WLml_GJ-23" value="生産マネジメント" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=light-dark(#000000,#99CCFF);" parent="1" vertex="1">
+                    <mxGeometry x="255" y="40" width="225" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="ZbMIgbuxjVwZyQ4SQIWv-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.32;entryY=0.471;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#0050ef;strokeColor=#001DBC;" parent="1" target="ZbMIgbuxjVwZyQ4SQIWv-1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="430" y="180" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="520" y="180"/>
+                            <mxPoint x="520" y="280"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4EnUbRHuGSjp5WLml_GJ-28" value="&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;能力計画の立案：MPS&lt;/div&gt;&lt;div&gt;・設備稼働&lt;/div&gt;&lt;div&gt;・人員&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" parent="1" vertex="1">
+                    <mxGeometry x="282.5" y="140" width="167.5" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="ZbMIgbuxjVwZyQ4SQIWv-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.007;entryY=0.125;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#0050ef;strokeColor=#001DBC;" parent="1" source="4EnUbRHuGSjp5WLml_GJ-29" target="ZbMIgbuxjVwZyQ4SQIWv-14" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="504" y="280"/>
+                            <mxPoint x="504" y="375"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4EnUbRHuGSjp5WLml_GJ-29" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;・サプライヤー選定&lt;/div&gt;&lt;div&gt;・契約・価格管理&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" parent="1" vertex="1">
+                    <mxGeometry x="282.5" y="240" width="145" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="4EnUbRHuGSjp5WLml_GJ-35" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=#001DBC;" parent="1" target="4EnUbRHuGSjp5WLml_GJ-13" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="100" y="190" as="sourcePoint"/>
+                        <mxPoint x="285" y="125" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="100" y="200"/>
+                            <mxPoint x="200" y="200"/>
+                            <mxPoint x="200" y="125"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4EnUbRHuGSjp5WLml_GJ-34" value="必要数量" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=light-dark(#3333FF,#99FFFF);" parent="1" vertex="1">
+                    <mxGeometry x="117.5" y="200" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4EnUbRHuGSjp5WLml_GJ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.409;entryY=0.133;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#0050ef;strokeColor=#001DBC;" parent="1" source="4EnUbRHuGSjp5WLml_GJ-2" target="4EnUbRHuGSjp5WLml_GJ-4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4EnUbRHuGSjp5WLml_GJ-38" value="製造指示&lt;div&gt;・工程展開&lt;/div&gt;&lt;div&gt;・作業展開&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="580" y="140" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ZbMIgbuxjVwZyQ4SQIWv-2" value="製造工程管理" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=light-dark(#000000,#99CCFF);" parent="1" vertex="1">
+                    <mxGeometry x="560" y="40" width="225" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="ZbMIgbuxjVwZyQ4SQIWv-7" value="①製造指図の作成：ERP" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="282.5" y="144" width="157.5" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="ZbMIgbuxjVwZyQ4SQIWv-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=#001DBC;" parent="1" source="ZbMIgbuxjVwZyQ4SQIWv-7" target="4EnUbRHuGSjp5WLml_GJ-38" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="400" y="150" as="sourcePoint"/>
+                        <mxPoint x="490" y="160" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ZbMIgbuxjVwZyQ4SQIWv-8" value="②販売・マネジメント" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="275" y="245" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="ZbMIgbuxjVwZyQ4SQIWv-9" value="小日程計画" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="617.5" y="230" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="ZbMIgbuxjVwZyQ4SQIWv-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.133;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#0050ef;strokeColor=#001DBC;" parent="1" source="4EnUbRHuGSjp5WLml_GJ-38" target="ZbMIgbuxjVwZyQ4SQIWv-9" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="390" y="330" as="sourcePoint"/>
+                        <mxPoint x="440" y="280" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="596" y="245"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ZbMIgbuxjVwZyQ4SQIWv-11" value="製造投入の順序策定" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="630" y="295" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="ZbMIgbuxjVwZyQ4SQIWv-12" value="個別設備選択" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="630" y="265" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="ZbMIgbuxjVwZyQ4SQIWv-14" value="発注管理" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="580" y="360" width="140" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="ZbMIgbuxjVwZyQ4SQIWv-15" value="・発注作業&lt;div&gt;・発注残、入庫予定&lt;/div&gt;&lt;div&gt;・納期調整&lt;/div&gt;&lt;div&gt;・納入入庫受入&lt;/div&gt;&lt;div&gt;・検収&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="ZbMIgbuxjVwZyQ4SQIWv-14" vertex="1">
+                    <mxGeometry y="30" width="140" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="需要の予測" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="84" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="SCM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry width="790" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
